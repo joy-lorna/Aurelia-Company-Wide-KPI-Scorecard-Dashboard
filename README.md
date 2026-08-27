@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-This project demonstrates the design and implementation of a management reporting dashboard for a fictional Luxembourg financial-services organisation. The solution combines dimensional modelling, DAX calculations, KPI governance, drill-through reporting, and interactive dashboard design to support executive decision-making across Revenue, Cost, Customer, and Operations functions. 【1-a98692】【2-50eb09】
+This project demonstrates the design and implementation of a management reporting dashboard for a fictional Luxembourg financial-services organisation. The solution combines dimensional modelling, DAX calculations, KPI governance, drill-through reporting, and interactive dashboard design to support executive decision-making across Revenue, Cost, Customer, and Operations functions.
 
 The project was built to demonstrate practical Business Intelligence skills commonly expected in Power BI analyst roles, including:
 
@@ -170,18 +170,18 @@ Provides detailed analysis of:
 
 ### Reporting Period
 
-**January 2025 – December 2025** 【1-a98692】
+**January 2025 – December 2025** 
 
 ### Geographic Coverage
 
 - Luxembourg
 - Germany
 - France
-- Belgium 【1-a98692】【3-c7fa3d】
+- Belgium
 
 ### Dataset Characteristics
 
-The dataset contains operational, customer, lending, transaction, and AUM information designed to simulate a management reporting environment within a financial-services organisation. 【3-c7fa3d】
+The dataset contains operational, customer, lending, transaction, and AUM information designed to simulate a management reporting environment within a financial-services organisation.
 
 ---
 
@@ -197,7 +197,7 @@ The dashboard:
 - is not a production system
 - does not represent actual financial performance
 
-The project is intended solely to demonstrate business intelligence, reporting, and data-modelling skills. 【4-42d67c】【2-50eb09】
+The project is intended solely to demonstrate business intelligence, reporting, and data-modelling skills.
 
 ---
 
@@ -205,7 +205,7 @@ The project is intended solely to demonstrate business intelligence, reporting, 
 
 ## Star Schema Design
 
-The solution uses a dimensional model consisting of one fact table and multiple dimensions. 【1-a98692】
+The solution uses a dimensional model consisting of one fact table and multiple dimensions.
 
 ```text
 Dim_Date
@@ -240,8 +240,6 @@ The table contains:
 - AUM
 - Lending metrics
 - Service quality metrics
-
-【1-a98692】
 
 ---
 
@@ -281,8 +279,6 @@ Business departments used for management reporting.
 ### KPI_Targets
 
 Target values used to determine KPI status and RAG thresholds.
-
-【3-c7fa3d】
 
 ---
 
@@ -547,7 +543,7 @@ Affected measures included:
 - SLA activity
 - Ticket volumes
 
-To prevent double counting, DAX measures were redesigned using region-level aggregation logic and closing-period calculations where appropriate. 【1-a98692】
+To prevent double counting, DAX measures were redesigned using region-level aggregation logic and closing-period calculations where appropriate. 
 
 This correction represents one of the key technical modelling exercises completed during the project.
 
@@ -567,7 +563,7 @@ The following areas were tested during development:
 - Operational KPI aggregation
 - Customer KPI calculations
 
-No material reconciliation issues remained after model refinement. 【1-a98692】
+No material reconciliation issues remained after model refinement.
 
 ---
 
@@ -615,7 +611,7 @@ As a result:
 - Year-over-year analysis cannot be populated
 - Trend analysis is limited to a single reporting year
 
-The KPI framework still includes these measures to demonstrate model design, but the source data does not contain historical periods required for population. 【1-a98692】
+The KPI framework still includes these measures to demonstrate model design, but the source data does not contain historical periods required for population.
 
 ---
 
@@ -633,4 +629,4 @@ The KPI framework still includes these measures to demonstrate model design, but
 
 # Portfolio Summary
 
-This project demonstrates the design, development, and publication of a company-wide KPI scorecard for a fictional Luxembourg financial-services organisation. The solution combines dimensional modelling, Power Query transformation, DAX calculations, KPI governance, drill-through reporting, and management dashboard design to provide decision-ready performance reporting across Revenue, Cost, Customer, and Operations functions. 【1-a98692】【2-50eb09】 The published Power BI dashboard can be accessed directly through the dashboard link above, allowing reviewers to interact with slicers, drill-through functionality, KPI cards, and supporting visualisations without downloading the PBIX file.
+This project demonstrates the design, development, and publication of a company-wide KPI scorecard for a fictional Luxembourg financial-services organisation. The solution combines dimensional modelling, Power Query transformation, DAX calculations, KPI governance, drill-through reporting, and management dashboard design to provide decision-ready performance reporting across Revenue, Cost, Customer, and Operations functions. The published Power BI dashboard can be accessed directly through the dashboard link above, allowing reviewers to interact with slicers, drill-through functionality, KPI cards, and supporting visualisations without downloading the PBIX file.
