@@ -22,13 +22,8 @@ The project was built to demonstrate practical Business Intelligence skills comm
 - Dashboard publishing and documentation
 
 ---
-## Live Dashboard
 
 ### Power BI Dashboard
-
-🔗 **View the published dashboard**
-
-[Open Aurelia Financial Services KPI Dashboard](https://frelotraders-my.sharepoint.com/:u:/g/personal/joylorna_frelotraders_onmicrosoft_com/IQB9T_JnjoypT6mWzpxhq8WhAQPOC_1bBCVloizjIBn8Oso?e=Kw6O7X)
 
 The dashboard contains:
 
